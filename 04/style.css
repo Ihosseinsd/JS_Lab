@@ -1,0 +1,30 @@
+
+
+
+body {
+    margin: 0;
+    background-color: #222;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+section {
+    margin-bottom: 3rem;
+}
+
+
+#big img {
+    width: 800px;
+}
+
+
+#thumbs img {
+    width: 150px;
+    display: inline-block;
+    margin: 8px;
+    border: 3px solid transparent;
+}

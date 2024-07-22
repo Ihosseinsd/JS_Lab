@@ -1,0 +1,35 @@
+
+
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222;
+    color: white;
+}
+
+section {
+    display: grid;
+    grid-template: repeat(4, 200px) / repeat(4, 200px);
+}
+
+
+div {
+    height: 200px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+i {
+    font-size: 3rem;
+    display: none !important;
+}
+
+
+.disable {
+    pointer-events: none;
+}

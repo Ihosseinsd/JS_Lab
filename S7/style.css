@@ -1,0 +1,38 @@
+
+
+body {
+    font-family: helvetica;
+}
+ul {
+    list-style-type: none;
+}
+
+
+li {
+    background-color: #ddd;
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: #aaa;
+}
+
+li > img {
+    width: 40px;
+    margin-right: 1rem;
+}
+
+
+main {
+    display: flex;
+}
+
+
+main > section {
+    flex: 1;
+}
